@@ -1,6 +1,6 @@
 {
-  "version": "2.0.9",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.9-x64.exe",
-  "sha256": "dd721e48cb19612471cce3c2db12f3cba9e4ae9e5e757eebb073de790d4e1589",
-  "notes": "Rediseno profesional de menus: paneles flexibles, seleccion de modo por tarjetas, multijugador ordenado, mejor jerarquia visual, fondos tacticos y soporte comprobado desde 640x480 hasta 1920x1080."
+  "version": "2.0.10",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.10-x64.exe",
+  "sha256": "7ea3a8fc084d396bfbe0bf1d9f1feb010f2612bbf4981e7a95b19090e226ef36",
+  "notes": "El servidor oficial queda configurado internamente y su direccion tecnica ya no aparece ni puede editarse en el menu multijugador."
 }
