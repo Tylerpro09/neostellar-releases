@@ -1,6 +1,6 @@
 {
-  "version": "2.0.1",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.1-x64.exe",
-  "sha256": "fcaa24cec37caadd2dc04c0bbb09b9e98c6f07f19c2aefdaf2bf3f8abaa19325",
-  "notes": "INICIAR ahora permite elegir modo Normal o Cooperativo. Mejora el lobby, copiar y pegar codigos, y la reconexion automatica."
+  "version": "2.0.2",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.2-x64.exe",
+  "sha256": "c13e758e0199056075b043e83133bb1f0bdff917fd22dc568f3f5954c4343698",
+  "notes": "Corrige el inicio para mostrar siempre el menu principal. INICIAR permite elegir Normal o Cooperativo."
 }
