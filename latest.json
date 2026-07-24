@@ -1,6 +1,6 @@
 {
-  "version": "2.0.8",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.8-x64.exe",
-  "sha256": "60cf64ce620ba87ae33a2c28de0e1111575610f878a0a9d7f9c6d8ef95642368",
-  "notes": "Reanimacion mas segura, TAB funcional en modo espectador e iconos visuales nuevos para combustible, escudo, vida, turbo y todas las habilidades."
+  "version": "2.0.9",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.9-x64.exe",
+  "sha256": "dd721e48cb19612471cce3c2db12f3cba9e4ae9e5e757eebb073de790d4e1589",
+  "notes": "Rediseno profesional de menus: paneles flexibles, seleccion de modo por tarjetas, multijugador ordenado, mejor jerarquia visual, fondos tacticos y soporte comprobado desde 640x480 hasta 1920x1080."
 }
