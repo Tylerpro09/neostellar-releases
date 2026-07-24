@@ -1,6 +1,6 @@
 {
-  "version": "2.1.1",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.1-x64.exe",
-  "sha256": "615e97eb7e646786ba175193333bb8874fb3451ce0b6c9e15bf6233e4508021c",
-  "notes": "Menu reorganizado: Modo Cooperativo y Modo Enemigos ahora estan dentro de un unico boton Multijugador. Mejora la navegacion, el regreso entre pantallas y el diseño adaptable."
+  "version": "2.1.2",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.2-x64.exe",
+  "sha256": "c31c62697d7c17213c15f5a35b0779dfa7be0eab367f7c957423d5c02855f7f5",
+  "notes": "Ajustes avanzados mas estables: recuperacion ante configuraciones dañadas, guardado sin cierres inesperados, indicador de estado, restauracion segura con confirmacion, navegacion con Escape y textos adaptables sin solaparse."
 }
