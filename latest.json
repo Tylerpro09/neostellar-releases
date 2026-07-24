@@ -1,6 +1,6 @@
 {
-  "version": "2.1.2",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.2-x64.exe",
-  "sha256": "c31c62697d7c17213c15f5a35b0779dfa7be0eab367f7c957423d5c02855f7f5",
-  "notes": "Ajustes avanzados mas estables: recuperacion ante configuraciones dañadas, guardado sin cierres inesperados, indicador de estado, restauracion segura con confirmacion, navegacion con Escape y textos adaptables sin solaparse."
+  "version": "2.1.3",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.3-x64.exe",
+  "sha256": "234d31e6f84b7bdb7ace4c71b6b052063e6dd76fd953ed80dc3e1a8d7e01b744",
+  "notes": "Corregida definitivamente la musica al 0%: el ultimo valor del deslizador se guarda antes de cerrar y, al volver a abrir, el canal musical no se inicia si el volumen esta silenciado."
 }
