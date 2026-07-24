@@ -1,6 +1,6 @@
 {
-  "version": "2.0.7",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.7-x64.exe",
-  "sha256": "f0f2a789e634b9d656ca646878324030c3095957a2f29998bc6d75ca4361a439",
-  "notes": "Gran mejora multijugador: reconexion real a partidas iniciadas, paquetes ordenados, cola optimizada, movimiento y giro suaves y menos carga en Render."
+  "version": "2.0.8",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.8-x64.exe",
+  "sha256": "60cf64ce620ba87ae33a2c28de0e1111575610f878a0a9d7f9c6d8ef95642368",
+  "notes": "Reanimacion mas segura, TAB funcional en modo espectador e iconos visuales nuevos para combustible, escudo, vida, turbo y todas las habilidades."
 }
