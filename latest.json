@@ -1,6 +1,6 @@
 {
-  "version": "2.0.10",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.10-x64.exe",
-  "sha256": "7ea3a8fc084d396bfbe0bf1d9f1feb010f2612bbf4981e7a95b19090e226ef36",
-  "notes": "El servidor oficial queda configurado internamente y su direccion tecnica ya no aparece ni puede editarse en el menu multijugador."
+  "version": "2.1.0",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.0-x64.exe",
+  "sha256": "1460a4b2950ae42e99e17fe499a087b472e2c1b58974f341f578ab1234adef04",
+  "notes": "Nuevo Modo Enemigos online: duelo jugador contra jugador sin enemigos de IA, arena limitada, tres vidas, reaparicion, eliminacion, espectador y victoria. Incluye salas publicas o privadas separadas del modo cooperativo."
 }
