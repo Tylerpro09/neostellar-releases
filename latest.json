@@ -1,6 +1,6 @@
 {
-  "version": "2.0.5",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.5-x64.exe",
-  "sha256": "73b3673c3db9251e0c6de181cc097cabdd1f8534ddbc90bda64ab32b1a78be2f",
-  "notes": "Corrige el congelamiento cooperativo. Agrega flecha, distancia e indicador para localizar y reanimar aliados caidos."
+  "version": "2.0.6",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.6-x64.exe",
+  "sha256": "5fbe94560c1400cd7762c2042503f7c335d6192aeb5163d5e42f94d4779fd908",
+  "notes": "Actualizador mejorado con progreso real, reintentos, control de cache, mensajes claros y verificacion segura."
 }
