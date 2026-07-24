@@ -1,6 +1,6 @@
 {
-  "version": "2.0.3",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.3-x64.exe",
-  "sha256": "628fe99c3bedc7e541314065b8458b93ac6af41aabf4c128599871a8581ec74c",
-  "notes": "Corrige la persistencia del sonido y el idioma, mejora los menus y agrega Actualizar en Ajustes > Datos."
+  "version": "2.0.4",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.4-x64.exe",
+  "sha256": "069e88215b74a9541e8d0d3c28b82437bf6e057dbed0d51e48d04c3f68a1ba77",
+  "notes": "Cooperativo mas fluido, aliados online en radar, botiquines de reanimacion y modo espectador. Corrige el boton Menu principal."
 }
