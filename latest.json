@@ -1,6 +1,6 @@
 {
-  "version": "2.0.4",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.4-x64.exe",
-  "sha256": "069e88215b74a9541e8d0d3c28b82437bf6e057dbed0d51e48d04c3f68a1ba77",
-  "notes": "Cooperativo mas fluido, aliados online en radar, botiquines de reanimacion y modo espectador. Corrige el boton Menu principal."
+  "version": "2.0.5",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.0.5-x64.exe",
+  "sha256": "73b3673c3db9251e0c6de181cc097cabdd1f8534ddbc90bda64ab32b1a78be2f",
+  "notes": "Corrige el congelamiento cooperativo. Agrega flecha, distancia e indicador para localizar y reanimar aliados caidos."
 }
