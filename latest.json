@@ -1,6 +1,6 @@
 {
-  "version": "2.1.4",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.4-x64.exe",
-  "sha256": "b38bdf0f4518d953ccb4950a9055f9d4678a5dc60463b190e71bd8c03eca7f72",
-  "notes": "Primera version firmada digitalmente por Animix Software. El ejecutable y el instalador incluyen firma SHA-256 y sello de tiempo para conservar la validez de la firma."
+  "version": "2.1.5",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.5-x64.exe",
+  "sha256": "c9d16000ea135ea90cb69cec2973bef8c738230d42ca7aa702dad00ed02a4662",
+  "notes": "Auto-update reforzado: valida version, origen, tamano, SHA-256, firma de Animix Software y sello de tiempo. Reintenta descargas incompletas y bloquea archivos alterados antes de instalarlos."
 }
