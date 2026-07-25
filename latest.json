@@ -1,6 +1,6 @@
 {
-  "version": "2.1.5",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.5-x64.exe",
-  "sha256": "c9d16000ea135ea90cb69cec2973bef8c738230d42ca7aa702dad00ed02a4662",
-  "notes": "Auto-update reforzado: valida version, origen, tamano, SHA-256, firma de Animix Software y sello de tiempo. Reintenta descargas incompletas y bloquea archivos alterados antes de instalarlos."
+  "version": "2.1.6",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.6-x64.exe",
+  "sha256": "c426b285af57b5ce0fa70cbb6fd43c9bd8420dc461a9365ed5adc8076519602b",
+  "notes": "Actualizacion de estabilidad: tolera mensajes de red danados sin desconectar, bloquea disparos remotos invalidos y evita mezclar salas cooperativas con competitivas. Incluye todas las mejoras seguras del auto-update 2.1.5."
 }
