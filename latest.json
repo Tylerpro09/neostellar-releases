@@ -1,6 +1,6 @@
 {
-  "version": "2.1.8",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.8-x64.exe",
-  "sha256": "6d0b26c4f5eb54ce855dfe766b86c71c58433a845e52e1594c1bf92e6db37995",
-  "notes": "Instalador renovado: actualizaciones silenciosas conservan el idioma, textos espanoles corregidos, deteccion real del juego abierto, progreso protegido, accesos compatibles y desinstalacion completa solo cuando el usuario lo confirma."
+  "version": "2.1.9",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.9/Neostellar-Setup-2.1.9-x64.exe",
+  "sha256": "31b943ccb8e4e88cb8637bf02c94a7d2d5ef98b4afaedb053934b6dd3d537378",
+  "notes": "Version conjunta Windows y Android: menus, progreso, equipamiento, salas, PvP, cooperativo, reanimacion, espectador, enemigos especiales, jefe y habilidades."
 }
