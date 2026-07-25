@@ -1,6 +1,6 @@
 {
-  "version": "2.1.13",
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.13/Neostellar-Setup-2.1.13-x64.exe",
-  "sha256": "24fcd55d650bbcac4bb1d9e5c77ab93f10fa876ef35967727367456d8bdaa556",
-  "notes": "Animación completa del GIF de Tallon032, soporte de mods Lua y bloqueo del multijugador oficial con mods activos."
+  "version": "2.1.14",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.14/Neostellar-Setup-2.1.14-x64.exe",
+  "sha256": "48b8d8b0480f8ba8bdcbc3289e4d2a8c6753c88fbef4f2d82dcfec6436826f3a",
+  "notes": "Runtime Lua avanzado con skins, reglas, HUD y multijugador propio separado del multijugador oficial."
 }
