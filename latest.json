@@ -1,6 +1,6 @@
 {
-  "version": "2.1.11",
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.11/Neostellar-Setup-2.1.11-x64.exe",
-  "sha256": "c5b4adb210df73fb110b6bc613d03885d03a649ac1c48cadb897b5e28d64611",
-  "notes": "Mods de la comunidad desde Ajustes > Modding; el multijugador oficial se bloquea con mods activos. Las actualizaciones son obligatorias antes de iniciar otra partida y no interrumpen una partida en curso."
+  "version": "2.1.13",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.13/Neostellar-Setup-2.1.13-x64.exe",
+  "sha256": "24fcd55d650bbcac4bb1d9e5c77ab93f10fa876ef35967727367456d8bdaa556",
+  "notes": "Animación completa del GIF de Tallon032, soporte de mods Lua y bloqueo del multijugador oficial con mods activos."
 }
