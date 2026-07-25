@@ -1,6 +1,6 @@
 {
-  "version": "2.1.9",
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.9/Neostellar-Setup-2.1.9-x64.exe",
-  "sha256": "31b943ccb8e4e88cb8637bf02c94a7d2d5ef98b4afaedb053934b6dd3d537378",
-  "notes": "Version conjunta Windows y Android: menus, progreso, equipamiento, salas, PvP, cooperativo, reanimacion, espectador, enemigos especiales, jefe y habilidades."
+  "version": "2.1.10",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.10/Neostellar-Setup-2.1.10-x64.exe",
+  "sha256": "c46f0f3d659cc97d8c01afd5594a9df39260722ef42c5cfd5ef91eb934533854",
+  "notes": "Hotfix Windows: el modo solo siempre activa enemigos IA aunque antes se haya abierto Modo Enemigos PvP."
 }
