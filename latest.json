@@ -1,6 +1,6 @@
 {
-  "version": "2.1.6",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.6-x64.exe",
-  "sha256": "c426b285af57b5ce0fa70cbb6fd43c9bd8420dc461a9365ed5adc8076519602b",
-  "notes": "Actualizacion de estabilidad: tolera mensajes de red danados sin desconectar, bloquea disparos remotos invalidos y evita mezclar salas cooperativas con competitivas. Incluye todas las mejoras seguras del auto-update 2.1.5."
+  "version": "2.1.7",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.7-x64.exe",
+  "sha256": "54c4fc0571a08cfc942e9804202a1ae72debb2b801fd71c21d5aee322b9ce06f",
+  "notes": "Corrige el idioma del instalador: elegir Espanol abre Neostellar en espanol desde el primer inicio, y elegir English lo abre en ingles. La preferencia puede cambiarse despues normalmente desde Ajustes."
 }
