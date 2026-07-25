@@ -1,6 +1,6 @@
 {
-  "version": "2.1.3",
-  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.3-x64.exe",
-  "sha256": "234d31e6f84b7bdb7ace4c71b6b052063e6dd76fd953ed80dc3e1a8d7e01b744",
-  "notes": "Corregida definitivamente la musica al 0%: el ultimo valor del deslizador se guarda antes de cerrar y, al volver a abrir, el canal musical no se inicia si el volumen esta silenciado."
+  "version": "2.1.4",
+  "url": "https://raw.githubusercontent.com/Tylerpro09/neostellar-releases/main/Neostellar-Setup-2.1.4-x64.exe",
+  "sha256": "b38bdf0f4518d953ccb4950a9055f9d4678a5dc60463b190e71bd8c03eca7f72",
+  "notes": "Primera version firmada digitalmente por Animix Software. El ejecutable y el instalador incluyen firma SHA-256 y sello de tiempo para conservar la validez de la firma."
 }
