@@ -1,4 +1,10 @@
 {
+  "version": "2.1.16",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-Setup-2.1.16-x64.exe",
+  "sha256": "7f6c3fbc703c82be62e562d45363eb97ecf0feb39775485b21af53779bae84f5",
+  "notes": "Sección Red con inicio de sesión de Discord, Rich Presence y mejoras de integración online."
+}
+{
   "version": "2.1.15",
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.15/Neostellar-Setup-2.1.15-x64.exe",
   "sha256": "cf207eedc614402cb6b74dabf6c5f328cdf6b89dff0b1b2551907864836c72f6",
