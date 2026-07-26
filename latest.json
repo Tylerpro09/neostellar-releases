@@ -1,6 +1,7 @@
 {
-  "version": "2.1.17",
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.17/Neostellar-Setup-2.1.17-x64.exe",
-  "sha256": "6d2e219bbceaabd3b6eb1dfc577c96cf82c8eec61030a5354e2e9b828bbff467",
-  "notes": "Pre-release correctiva: sección Red con inicio de sesión de Discord, Rich Presence y corrección del error NETWORK."
+  "version": "2.1.18",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.18/Neostellar-Setup-2.1.18-x64.exe",
+  "sha256": "3581b6ad460a10c10b5e7aafd7ce589f3f2251a6ee5cd7c70d1dcf669e216e93",
+  "required": true,
+  "notes": "Actualización obligatoria antes de iniciar una partida: corrección de Discord y configuración externa del puente local."
 }
