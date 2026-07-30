@@ -5,21 +5,22 @@
   "version": "2.1.25",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-07-29",
+  "published_at": "2026-07-30",
   "minimum_supported_version": "2.1.24",
   "required": true,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.25/Neostellar-Setup-2.1.25-x64.exe",
-  "size_bytes": 47081200,
-  "sha256": "26D520D7AB9FF10FA03AC3282AE23E71954ACFD38A2525BA30CE51DA343C73BA",
-  "notes": "Actualización obligatoria con minijuegos no canónicos y Flappy Bird con recursos integrados.",
+  "size_bytes": 47088008,
+  "sha256": "C2536BFEAACBB639713035B41ACB9B65EBAE38E0C828261D3E0C1FA468EEED15",
+  "notes": "Actualización obligatoria con contador de asesinatos, Titan por fases, minijuegos no canónicos y Flappy Bird con recursos integrados.",
   "highlights": [
+    "Añade al HUD el contador visible de asesinatos y lo incluye en la telemetría.",
+    "Incluye el Titan con mecánicas por fases en el modo normal.",
     "Añade la sección Minijuegos con desplazamiento horizontal e inicio independiente.",
     "Incluye Flappy Bird como modo no canónico, separado de la campaña y del multijugador oficial.",
     "Integra sprites y sonidos de Flappy Bird dentro del instalador para jugar sin descargar recursos extra.",
-    "Mantiene el nickname multijugador en Ajustes > Red y la conexión de Discord.",
     "La actualización solo se aplica antes de una nueva partida y no interrumpe partidas activas."
   ]
 }
