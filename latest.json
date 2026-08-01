@@ -22,8 +22,8 @@
     },
     "linux": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-linux-x86_64-2.1.16.tar.gz",
-      "size_bytes": 46405957,
-      "sha256": "30CF31C731A1B78FC6EDF64AF84A1D1841477489CED05CFFE9E9F553E041B323"
+      "size_bytes": 56470412,
+      "sha256": "189B6CC6F7C743C0D2213600A07C6FEC5590BFF355310D008FFA30CAF6A8E525"
     },
     "android": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-Android-2.1.16.apk",
@@ -31,10 +31,10 @@
       "sha256": "DB567EC963D685DD8042562D49BD8CE13BBAA40CA457B0CD9C1D8C1DD4B84612"
     }
   },
-  "notes": "Actualización multiplataforma para Windows y Linux; Linux incluye certificados CA para el multijugador seguro.",
+  "notes": "Actualización multiplataforma para Windows y Linux; Linux incluye la interfaz completa, imágenes y certificados CA para el multijugador seguro.",
   "highlights": [
     "Actualiza automáticamente Windows mediante el instalador firmado.",
-    "Actualiza automáticamente Linux mediante el paquete portable verificado por SHA-256.",
+    "Actualiza automáticamente Linux con la interfaz completa y recursos visuales.",
     "Linux usa conexión WSS con certificados CA incluidos.",
     "Incluye el APK Android como descarga de la release.",
     "La actualización se aplica antes de una nueva partida y no interrumpe partidas activas."
