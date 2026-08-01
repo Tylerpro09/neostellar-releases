@@ -1,26 +1,41 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.25 — Minijuegos y Flappy Bird",
-  "version": "2.1.25",
+  "name": "Neostellar 2.1.16",
+  "version": "2.1.16",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-07-30",
-  "minimum_supported_version": "2.1.24",
+  "published_at": "2026-08-01",
+  "minimum_supported_version": "2.1.15",
   "required": true,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.25/Neostellar-Setup-2.1.25-x64.exe",
-  "size_bytes": 47088008,
-  "sha256": "C2536BFEAACBB639713035B41ACB9B65EBAE38E0C828261D3E0C1FA468EEED15",
-  "notes": "Actualización obligatoria con contador de asesinatos, Titan por fases, minijuegos no canónicos y Flappy Bird con recursos integrados.",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-Setup-2.1.16-x64.exe",
+  "size_bytes": 42868864,
+  "sha256": "30FCA40B689A3A295EC63A366220DAE86FC515FC15D02B4E0EDB0C57A0CB7342",
+  "platforms": {
+    "windows": {
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-Setup-2.1.16-x64.exe",
+      "size_bytes": 42868864,
+      "sha256": "30FCA40B689A3A295EC63A366220DAE86FC515FC15D02B4E0EDB0C57A0CB7342"
+    },
+    "linux": {
+      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.16/Neostellar-linux-x86_64-2.1.16.tar.gz",
+      "size_bytes": 46274451,
+      "sha256": "7EE170EA284E204DA3E5A941936090383F081ED98DC0CDBF19E7281796D3FAB9"
+    },
+    "android": {
+      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.16/Neostellar-Android-2.1.16.apk",
+      "size_bytes": 50367814,
+      "sha256": "DB567EC963D685DD8042562D49BD8CE13BBAA40CA457B0CD9C1D8C1DD4B84612"
+    }
+  },
+  "notes": "Actualización multiplataforma para Windows y Linux, con APK Android disponible en la release.",
   "highlights": [
-    "Añade al HUD el contador visible de asesinatos y lo incluye en la telemetría.",
-    "Incluye el Titan con mecánicas por fases en el modo normal.",
-    "Añade la sección Minijuegos con desplazamiento horizontal e inicio independiente.",
-    "Incluye Flappy Bird como modo no canónico, separado de la campaña y del multijugador oficial.",
-    "Integra sprites y sonidos de Flappy Bird dentro del instalador para jugar sin descargar recursos extra.",
-    "La actualización solo se aplica antes de una nueva partida y no interrumpe partidas activas."
+    "Actualiza automáticamente Windows mediante el instalador firmado.",
+    "Actualiza automáticamente Linux mediante el paquete portable verificado por SHA-256.",
+    "Incluye el APK Android como descarga de la release.",
+    "La actualización se aplica antes de una nueva partida y no interrumpe partidas activas."
   ]
 }
