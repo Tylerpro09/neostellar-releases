@@ -1,42 +1,41 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.16",
-  "version": "2.1.16",
+  "name": "Neostellar 2.1.26 — Sugerencias EmailJS",
+  "version": "2.1.26",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-08-01",
-  "minimum_supported_version": "2.1.15",
+  "published_at": "2026-08-02",
+  "minimum_supported_version": "2.1.16",
   "required": true,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-Setup-2.1.16-x64.exe",
-  "size_bytes": 42868864,
-  "sha256": "30FCA40B689A3A295EC63A366220DAE86FC515FC15D02B4E0EDB0C57A0CB7342",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.26/Neostellar-Setup-2.1.26-x64.exe",
+  "size_bytes": 43214608,
+  "sha256": "831E75268B5729C4FCB74A05CCBC0F9E205E1AFAE8F36DE91C755D089B98F601",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-Setup-2.1.16-x64.exe",
-      "size_bytes": 42868864,
-      "sha256": "30FCA40B689A3A295EC63A366220DAE86FC515FC15D02B4E0EDB0C57A0CB7342"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.26/Neostellar-Setup-2.1.26-x64.exe",
+      "size_bytes": 43214608,
+      "sha256": "831E75268B5729C4FCB74A05CCBC0F9E205E1AFAE8F36DE91C755D089B98F601"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-linux-x86_64-2.1.16.tar.gz",
-      "size_bytes": 56470412,
-      "sha256": "189B6CC6F7C743C0D2213600A07C6FEC5590BFF355310D008FFA30CAF6A8E525"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.26/Neostellar-linux-x86_64-2.1.26.tar.gz",
+      "size_bytes": 56168561,
+      "sha256": "8EF4BB0DA4F558095DC73027A08A8688F9B803B42B3C443FA9B812438BA9011B"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.16/Neostellar-Android-2.1.16.apk",
-      "size_bytes": 50367814,
-      "sha256": "DB567EC963D685DD8042562D49BD8CE13BBAA40CA457B0CD9C1D8C1DD4B84612"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.26/Neostellar-Android-2.1.26.apk",
+      "size_bytes": 50662794,
+      "sha256": "569D8E34172BEBD26890A8E6E9B9856C009765999EF34E6C804CF810E7AF1460"
     }
   },
-  "notes": "Actualización multiplataforma para Windows y Linux; Linux incluye la interfaz completa, imágenes y certificados CA para el multijugador seguro.",
+  "notes": "Actualización multiplataforma con botón de Sugerencias conectado a EmailJS, runtime de mods en Python y mejoras de distribución.",
   "highlights": [
-    "Actualiza automáticamente Windows mediante el instalador firmado.",
-    "Actualiza automáticamente Linux con la interfaz completa y recursos visuales.",
-    "Linux usa conexión WSS con certificados CA incluidos.",
-    "Incluye el APK Android como descarga de la release.",
-    "La actualización se aplica antes de una nueva partida y no interrumpe partidas activas."
+    "Windows incluye el instalador x64 firmado con certificado de desarrollo.",
+    "Linux incluye la interfaz completa, recursos visuales y certificados CA para conexiones seguras.",
+    "Android incluye el formulario de sugerencias conectado por HTTPS a EmailJS.",
+    "Los mods nuevos se cargan desde main.py mediante el runtime Python."
   ]
 }
