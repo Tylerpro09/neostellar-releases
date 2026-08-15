@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.27 — Client ID y mejoras multiplataforma",
-  "version": "2.1.27",
+  "name": "Neostellar 2.1.28 — Conteo de instalaciones fuera del multijugador",
+  "version": "2.1.28",
   "channel": "stable",
   "release_type": "mandatory",
   "published_at": "2026-08-15",
@@ -11,31 +11,32 @@
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.27/Neostellar-Setup-2.1.27-x64.exe",
-  "size_bytes": 56198488,
-  "sha256": "9168F85BCB47F0F581CE4D82080FDF2DEFD565189B0272A79A2501C26A57D12B",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.28/Neostellar-Setup-2.1.28-x64.exe",
+  "size_bytes": 56198408,
+  "sha256": "5A8A02AF1075AD9EB5A8466CB8BC05C102D5B4B750E4D94B9E0105B9F233B93B",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.27/Neostellar-Setup-2.1.27-x64.exe",
-      "size_bytes": 56198488,
-      "sha256": "9168F85BCB47F0F581CE4D82080FDF2DEFD565189B0272A79A2501C26A57D12B"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.28/Neostellar-Setup-2.1.28-x64.exe",
+      "size_bytes": 56198408,
+      "sha256": "5A8A02AF1075AD9EB5A8466CB8BC05C102D5B4B750E4D94B9E0105B9F233B93B"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.27/Neostellar-linux-x86_64-2.1.27.tar.gz",
-      "size_bytes": 51038634,
-      "sha256": "CBA752E3A7606C7071760D2BCDA43494B422D505723C9C97F676C6CD81FB5CBB"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.28/Neostellar-linux-x86_64-2.1.28.tar.gz",
+      "size_bytes": 51042143,
+      "sha256": "C02418BE821FDD99761235443EFFBE920BC3BA1D89C932C3C69A4357373496CA"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.27/Neostellar-Android-2.1.27.apk",
-      "size_bytes": 50679242,
-      "sha256": "FAB8232C05FFE471FAF31612B3E09E883AEA3B3D9CB2BF3AE5D9532A08EC460F"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.28/Neostellar-Android-2.1.28.apk",
+      "size_bytes": 50695626,
+      "sha256": "AE9CF4D1F6B0C918F28B66BA7CC8FB8C501D83D46D45DA520F98C2493CEC7A20"
     }
   },
-  "notes": "Actualización multiplataforma con Client ID permanente, mejoras de conexión multijugador, runtime Python para mods, sugerencias por EmailJS y recursos actualizados.",
+  "notes": "Actualización multiplataforma con presencia en línea fuera del multijugador, Client ID permanente y mejoras de conexión.",
   "highlights": [
     "Windows incluye instalador x64 firmado digitalmente y verificado con sello de tiempo.",
     "Linux incluye el paquete completo con interfaz, recursos visuales e instrucciones; es compatible con glibc 2.35.",
     "Android incluye el cliente actualizado con Client ID persistente y conexión segura.",
+    "El cliente envía una señal anónima cada 45 segundos para contar instalaciones activas incluso fuera del multijugador.",
     "Las instalaciones antiguas generan su Client ID permanente durante esta actualización.",
     "El actualizador verifica SHA-256 antes de instalar y no interrumpe una partida activa."
   ]
