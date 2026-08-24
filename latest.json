@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.34 — rollback y actualizaciones mejoradas",
+  "name": "Neostellar 2.1.34 — minijuegos corregidos y rollback",
   "version": "2.1.34",
   "channel": "stable",
   "release_type": "mandatory",
@@ -12,31 +12,32 @@
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.34/Neostellar-Setup-2.1.34-x64.exe",
-  "size_bytes": 56235384,
-  "sha256": "a72ea0d235d5415d137378154cdfd90f6423f56a2e59f65dca30ede4a2416684",
+  "size_bytes": 56233128,
+  "sha256": "57a0934c993ed368367c1c28cb33355e31922986e4fc89d92ce9d44a901eb7af",
   "platforms": {
     "windows": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.34/Neostellar-Setup-2.1.34-x64.exe",
-      "size_bytes": 56235384,
-      "sha256": "a72ea0d235d5415d137378154cdfd90f6423f56a2e59f65dca30ede4a2416684"
+      "size_bytes": 56233128,
+      "sha256": "57a0934c993ed368367c1c28cb33355e31922986e4fc89d92ce9d44a901eb7af"
     },
     "linux": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.34/Neostellar-linux-x86_64-2.1.34.tar.gz",
-      "size_bytes": 56222478,
-      "sha256": "41305121a484c1d5f019cda054eef9e165755f36d3da540bfbccf302a9e2fa24"
+      "size_bytes": 56224685,
+      "sha256": "34acc15461d52145b208e62535420ad4fa9d25c872c1d86e94a73227d3c49567"
     },
     "android": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.34/Neostellar-Android-2.1.34.apk",
       "size_bytes": 50695626,
-      "sha256": "b5371bed40fa2963a056c486db2143bb49ab57884217fad1c89e0a58ad78f680"
+      "sha256": "af3d71ce86f34ca89ef07e2034a011880176aa31d1e241f069ec08625d789d9d"
     }
   },
-  "notes": "Actualización multiplataforma con rollback seguro y un sistema de actualizaciones más claro.",
+  "notes": "Actualización multiplataforma con minijuegos corregidos, rollback seguro y un sistema de actualizaciones más claro.",
   "highlights": [
     "Nueva presentación de Animix Software y Neostellar al iniciar; dura diez segundos y se puede omitir.",
     "Windows incluye instalador x64 firmado digitalmente y verificado con sello de tiempo.",
     "Linux incluye interfaz, recursos visuales e instrucciones; es compatible con glibc 2.35.",
     "Android incluye el cliente actualizado 2.1.34.",
+    "Windows y Linux muestran y permiten iniciar Supervivencia del vacío y Flappy Bird.",
     "Ajustes incluye rollback a la versión anterior con confirmación y validación de seguridad.",
     "Las actualizaciones muestran versión, canal, tamaño, notas, progreso y reintentos de descarga.",
     "El actualizador verifica SHA-256, firma digital y tamaño esperado antes de instalar.",
