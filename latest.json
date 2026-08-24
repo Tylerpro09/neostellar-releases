@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.36 — Psych Engine FNF integrado",
-  "version": "2.1.36",
+  "name": "Neostellar 2.1.37 — Hotfix del runtime Psych Engine",
+  "version": "2.1.37",
   "channel": "stable",
   "release_type": "mandatory",
   "published_at": "2026-08-24",
@@ -11,54 +11,54 @@
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.36/Neostellar-Setup-2.1.36-x64.exe",
-  "size_bytes": 96815656,
-  "sha256": "7012d6beb19e42b6be18260be231209399df19aa5e87b35b78e4bd34de94ad9b",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.37/Neostellar-Setup-2.1.37-x64.exe",
+  "size_bytes": 96819048,
+  "sha256": "e0d4f7f8ce4e1bbffe8811ced21d0189243cc53241a1f0cc75a8dfd3808bf58c",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.36/Neostellar-Setup-2.1.36-x64.exe",
-      "size_bytes": 96815656,
-      "sha256": "7012d6beb19e42b6be18260be231209399df19aa5e87b35b78e4bd34de94ad9b"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.37/Neostellar-Setup-2.1.37-x64.exe",
+      "size_bytes": 96819048,
+      "sha256": "e0d4f7f8ce4e1bbffe8811ced21d0189243cc53241a1f0cc75a8dfd3808bf58c"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.36/Neostellar-linux-x86_64-2.1.36.tar.gz",
-      "size_bytes": 126196810,
-      "sha256": "5fcab888a462a508884b0d2d02edbfbe226c9f302fa1768dc7cf82a43b398297"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.37/Neostellar-linux-x86_64-2.1.37.tar.gz",
+      "size_bytes": 126202743,
+      "sha256": "27634dbc9bf7868e692d1d6dcd781f5409a9e09446ededfa8b8f38766c78451b"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.36/Neostellar-Android-2.1.36.apk",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.37/Neostellar-Android-2.1.37.apk",
       "size_bytes": 50777594,
-      "sha256": "ed7627e919d482c07294e293c880bebdba39340dab453397e08945cd4bcff537"
+      "sha256": "a931f102b51e3b7394b166d4fd9652cc848d9519b0227cc54224122c9712723b"
     }
   },
-  "notes": "NeoStellar 2.1.36 integra Psych Engine nativo en el minijuego FNF para Windows y Linux, con fallback compatible en Android.",
+  "notes": "NeoStellar 2.1.37 corrige el paquete de recursos de Psych Engine para evitar el error de la biblioteca de assets default.",
   "highlights": [
     "El minijuego FNF abre el runtime nativo de Psych Engine y procesa mods, charts, personajes, recursos y scripts.",
     "Windows incluye Psych Engine dentro del instalador x64 y el instalador está firmado con certificado PFX.",
     "Linux incluye el runtime nativo, la interfaz actualizada y las instrucciones de instalación.",
-    "Android incluye el cliente actualizado 2.1.36 con el modo de respaldo compatible.",
-    "El multijugador exige exactamente la versión 2.1.36 y rechaza clientes antiguos antes de entrar a una sala."
+    "Android incluye el cliente actualizado 2.1.37 con el modo de respaldo compatible.",
+    "El multijugador exige exactamente la versión 2.1.37 y rechaza clientes antiguos antes de entrar a una sala."
   ],
   "previous": {
-    "name": "Neostellar 2.1.35 — NeoStellar FNF en nave",
-    "version": "2.1.35",
+    "name": "Neostellar 2.1.36 — Psych Engine FNF integrado",
+    "version": "2.1.36",
     "channel": "stable",
     "notes": "Versión anterior estable disponible para rollback.",
     "platforms": {
       "windows": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.35/Neostellar-Setup-2.1.35-x64.exe",
-        "size_bytes": 56248968,
-        "sha256": "a521fce69fcad4e2b5dc2414100b0818c1e7f0c168ab2f8b2f07a914f0c8e196"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.36/Neostellar-Setup-2.1.36-x64.exe",
+        "size_bytes": 96815656,
+        "sha256": "7012d6beb19e42b6be18260be231209399df19aa5e87b35b78e4bd34de94ad9b"
       },
       "linux": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.35/Neostellar-linux-x86_64-2.1.35.tar.gz",
-        "size_bytes": 56236448,
-        "sha256": "15e32c99e1300a5557a7096d521487e5fec0719c323c15cb1d6aea44cb83d28c"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.36/Neostellar-linux-x86_64-2.1.36.tar.gz",
+        "size_bytes": 126196810,
+        "sha256": "5fcab888a462a508884b0d2d02edbfbe226c9f302fa1768dc7cf82a43b398297"
       },
       "android": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.35/Neostellar-Android-2.1.35.apk",
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.36/Neostellar-Android-2.1.36.apk",
         "size_bytes": 50777594,
-        "sha256": "52ac6efa071a18e3ed91d06ec2360f5511e377f8eb07642e7c92d2a1e2479492"
+        "sha256": "ed7627e919d482c07294e293c880bebdba39340dab453397e08945cd4bcff537"
       }
     }
   }
