@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.33 — presentación Animix y actualizaciones mejoradas",
-  "version": "2.1.33",
+  "name": "Neostellar 2.1.34 — rollback y actualizaciones mejoradas",
+  "version": "2.1.34",
   "channel": "stable",
   "release_type": "mandatory",
   "published_at": "2026-08-23",
@@ -11,35 +11,59 @@
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-Setup-2.1.33-x64.exe",
-  "size_bytes": 56224528,
-  "sha256": "83947a33bd14e60f36f706eec1dba72dc9de447f6c4db5c08fd886fcfd2b7dbd",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.34/Neostellar-Setup-2.1.34-x64.exe",
+  "size_bytes": 56235384,
+  "sha256": "a72ea0d235d5415d137378154cdfd90f6423f56a2e59f65dca30ede4a2416684",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-Setup-2.1.33-x64.exe",
-      "size_bytes": 56224528,
-      "sha256": "83947a33bd14e60f36f706eec1dba72dc9de447f6c4db5c08fd886fcfd2b7dbd"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.34/Neostellar-Setup-2.1.34-x64.exe",
+      "size_bytes": 56235384,
+      "sha256": "a72ea0d235d5415d137378154cdfd90f6423f56a2e59f65dca30ede4a2416684"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-linux-x86_64-2.1.33.tar.gz",
-      "size_bytes": 56214675,
-      "sha256": "b97f5cb67a327eae31938cdf466d15beaa90e10634b4365711c56e933498da65"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.34/Neostellar-linux-x86_64-2.1.34.tar.gz",
+      "size_bytes": 56222478,
+      "sha256": "41305121a484c1d5f019cda054eef9e165755f36d3da540bfbccf302a9e2fa24"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-Android-2.1.33.apk",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.34/Neostellar-Android-2.1.34.apk",
       "size_bytes": 50695626,
-      "sha256": "e734efb38dadad70686440dde8aa8c077be7ba2b441da894dd8cec2b935d9b13"
+      "sha256": "b5371bed40fa2963a056c486db2143bb49ab57884217fad1c89e0a58ad78f680"
     }
   },
-  "notes": "Actualización multiplataforma con presentación de Animix Software, catálogo arcade con scroll y un sistema de actualizaciones más claro y seguro.",
+  "notes": "Actualización multiplataforma con rollback seguro y un sistema de actualizaciones más claro.",
   "highlights": [
     "Nueva presentación de Animix Software y Neostellar al iniciar; dura diez segundos y se puede omitir.",
     "Windows incluye instalador x64 firmado digitalmente y verificado con sello de tiempo.",
     "Linux incluye interfaz, recursos visuales e instrucciones; es compatible con glibc 2.35.",
-    "Android incluye el cliente actualizado 2.1.33.",
-    "El botón Clásicos muestra los diez juegos en una lista desplazable con rueda, flechas y PageUp/PageDown.",
+    "Android incluye el cliente actualizado 2.1.34.",
+    "Ajustes incluye rollback a la versión anterior con confirmación y validación de seguridad.",
     "Las actualizaciones muestran versión, canal, tamaño, notas, progreso y reintentos de descarga.",
     "El actualizador verifica SHA-256, firma digital y tamaño esperado antes de instalar.",
-    "El multijugador exige exactamente la versión 2.1.33 y rechaza clientes antiguos antes de entrar a una sala."
-  ]
+    "El multijugador exige exactamente la versión 2.1.34 y rechaza clientes antiguos antes de entrar a una sala."
+  ],
+  "previous": {
+    "name": "Neostellar 2.1.33 — presentación Animix y actualizaciones mejoradas",
+    "version": "2.1.33",
+    "channel": "stable",
+    "notes": "Versión anterior estable disponible para rollback.",
+    "platforms": {
+      "windows": {
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-Setup-2.1.33-x64.exe",
+        "size_bytes": 56224528,
+        "sha256": "83947a33bd14e60f36f706eec1dba72dc9de447f6c4db5c08fd886fcfd2b7dbd"
+      },
+      "linux": {
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-linux-x86_64-2.1.33.tar.gz",
+        "size_bytes": 56214675,
+        "sha256": "b97f5cb67a327eae31938cdf466d15beaa90e10634b4365711c56e933498da65"
+      },
+      "android": {
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-Android-2.1.33.apk",
+        "size_bytes": 50695626,
+        "sha256": "e734efb38dadad70686440dde8aa8c077be7ba2b441da894dd8cec2b935d9b13"
+      }
+    }
+  }
 }
+
