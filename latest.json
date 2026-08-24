@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.38 — FNF: Signal from the Void",
-  "version": "2.1.38",
+  "name": "Neostellar 2.1.39 — FNF: semana Signal from the Void visible",
+  "version": "2.1.39",
   "channel": "stable",
   "release_type": "mandatory",
   "published_at": "2026-08-24",
@@ -11,55 +11,55 @@
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.38/Neostellar-Setup-2.1.38-x64.exe",
-  "size_bytes": 122604152,
-  "sha256": "90cd4bfe3422d8e8a7a11d8d2f59d7a852000d4c161d25f4c55de6a69ea7417c",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.39/Neostellar-Setup-2.1.39-x64.exe",
+  "size_bytes": 122617424,
+  "sha256": "12306f754c469fd53a49de96a0fe09f97e70c04de6391f220431aa1518b23e2c",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.38/Neostellar-Setup-2.1.38-x64.exe",
-      "size_bytes": 122604152,
-      "sha256": "90cd4bfe3422d8e8a7a11d8d2f59d7a852000d4c161d25f4c55de6a69ea7417c"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.39/Neostellar-Setup-2.1.39-x64.exe",
+      "size_bytes": 122617424,
+      "sha256": "12306f754c469fd53a49de96a0fe09f97e70c04de6391f220431aa1518b23e2c"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.38/Neostellar-linux-x86_64-2.1.38.tar.gz",
-      "size_bytes": 152047988,
-      "sha256": "0b6b8b49f962ced04270db934a975672a06a39208d04902430adaefd9dcdb31e"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.39/Neostellar-linux-x86_64-2.1.39.tar.gz",
+      "size_bytes": 177885497,
+      "sha256": "acdad389cee434d8d888e126d888f9c5d1cee2efec6fabec57f9797ac6a635b8"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.38/Neostellar-Android-2.1.38.apk",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.39/Neostellar-Android-2.1.39.apk",
       "size_bytes": 50777594,
       "sha256": "b31887bf301e6271128a28ea4b04e223d97c76d87ad7f2a627932279741cc69f"
     }
   },
-  "notes": "NeoStellar 2.1.38 añade la semana FNF Signal from the Void con escenario propio y corrige la carga de recursos del minijuego.",
+  "notes": "NeoStellar 2.1.39 corrige la semana FNF: ahora se instala como el mod integrado neostellar_fnf y aparece en Story Mode con sus charts, canciones y escenario.",
   "highlights": [
-    "El minijuego FNF incluye la semana Signal from the Void con Bopeebo, Fresh y Dad Battle.",
-    "Windows y Linux incluyen el runtime nativo de Psych Engine con charts, personajes, escenario y recursos completos.",
+    "La semana Signal from the Void queda registrada y visible en Story Mode de Psych Engine.",
+    "El mod integrado se copia al directorio de mods escribible para que no desaparezca por falta de registro en el manifiesto.",
     "Windows incluye el instalador x64 firmado con certificado PFX.",
-    "Linux incluye el paquete x86_64 con la interfaz y las instrucciones de instalación.",
-    "Android incluye el cliente actualizado 2.1.38 con su modo FNF compatible.",
-    "El multijugador exige exactamente la versión 2.1.38 y rechaza clientes antiguos antes de entrar a una sala."
+    "Linux incluye el paquete x86_64 con el runtime nativo y la semana FNF completa.",
+    "Android incluye el cliente actualizado 2.1.39.",
+    "El multijugador exige exactamente la versión 2.1.39 y rechaza clientes antiguos antes de entrar a una sala."
   ],
   "previous": {
-    "name": "Neostellar 2.1.37 — Hotfix del runtime Psych Engine",
-    "version": "2.1.37",
+    "name": "Neostellar 2.1.38 — FNF: Signal from the Void",
+    "version": "2.1.38",
     "channel": "stable",
     "notes": "Versión anterior estable disponible para rollback.",
     "platforms": {
       "windows": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.37/Neostellar-Setup-2.1.37-x64.exe",
-        "size_bytes": 96819048,
-        "sha256": "e0d4f7f8ce4e1bbffe8811ced21d0189243cc53241a1f0cc75a8dfd3808bf58c"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.38/Neostellar-Setup-2.1.38-x64.exe",
+        "size_bytes": 122604152,
+        "sha256": "90cd4bfe3422d8e8a7a11d8d2f59d7a852000d4c161d25f4c55de6a69ea7417c"
       },
       "linux": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.37/Neostellar-linux-x86_64-2.1.37.tar.gz",
-        "size_bytes": 126202743,
-        "sha256": "27634dbc9bf7868e692d1d6dcd781f5409a9e09446ededfa8b8f38766c78451b"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.38/Neostellar-linux-x86_64-2.1.38.tar.gz",
+        "size_bytes": 152047988,
+        "sha256": "0b6b8b49f962ced04270db934a975672a06a39208d04902430adaefd9dcdb31e"
       },
       "android": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.37/Neostellar-Android-2.1.37.apk",
+        "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.38/Neostellar-Android-2.1.38.apk",
         "size_bytes": 50777594,
-        "sha256": "a931f102b51e3b7394b166d4fd9652cc848d9519b0227cc54224122c9712723b"
+        "sha256": "b31887bf301e6271128a28ea4b04e223d97c76d87ad7f2a627932279741cc69f"
       }
     }
   }
