@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.31 — economía equilibrada y multijugador protegido",
-  "version": "2.1.31",
+  "name": "Neostellar 2.1.32 — catálogo arcade y multijugador protegido",
+  "version": "2.1.32",
   "channel": "stable",
   "release_type": "mandatory",
   "published_at": "2026-08-23",
@@ -11,34 +11,36 @@
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.31/Neostellar-Setup-2.1.31-x64.exe",
-  "size_bytes": 56217360,
-  "sha256": "77c5272401e02a632c81d18777d0418b4e5e45ae04f74f62d6eb34c220929f66",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.32/Neostellar-Setup-2.1.32-x64.exe",
+  "size_bytes": 56218368,
+  "sha256": "5de859c6e91c8d96fba67a621a597a0aecd725df8245815e0611fac197d7fe48",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.31/Neostellar-Setup-2.1.31-x64.exe",
-      "size_bytes": 56217360,
-      "sha256": "77c5272401e02a632c81d18777d0418b4e5e45ae04f74f62d6eb34c220929f66"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.32/Neostellar-Setup-2.1.32-x64.exe",
+      "size_bytes": 56218368,
+      "sha256": "5de859c6e91c8d96fba67a621a597a0aecd725df8245815e0611fac197d7fe48"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.31/Neostellar-linux-x86_64-2.1.31.tar.gz",
-      "size_bytes": 56199926,
-      "sha256": "3f9ce0636fd3e2bcde084220abaa5339259c513428484ffbd5490f65c6a3ff56"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.32/Neostellar-linux-x86_64-2.1.32.tar.gz",
+      "size_bytes": 56206718,
+      "sha256": "7b174e0738130fecb26715dc4671530c120f2a2358142657dd7040f7026e5227"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.31/Neostellar-Android-2.1.31.apk",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.32/Neostellar-Android-2.1.32.apk",
       "size_bytes": 50695626,
-      "sha256": "42877b9ca0b2a944ab6293df92c7ea9430ecffc4775161179696296b321399f4"
+      "sha256": "7b863a726b36e06a40e23309c486d25cbf9f449c69ef2bd80e1493a7268d09e0"
     }
   },
-  "notes": "Actualización multiplataforma con economía equilibrada y control estricto de versión para el multijugador.",
+  "notes": "Actualización multiplataforma con catálogo arcade, mejoras visuales en minijuegos y control estricto de versión para el multijugador.",
   "highlights": [
     "Windows incluye instalador x64 firmado digitalmente y verificado con sello de tiempo.",
     "Linux incluye interfaz, recursos visuales e instrucciones; es compatible con glibc 2.35.",
-    "Android incluye el cliente actualizado 2.1.31.",
+    "Android incluye el cliente actualizado 2.1.32.",
+    "Minijuegos añade un catálogo de diez clásicos arcade como referencia sin habilitar modos no implementados.",
     "Las ganancias normales de créditos se equilibran al 70%; las herramientas de desarrollo conservan su funcionamiento.",
-    "El multijugador exige exactamente la versión 2.1.31 y rechaza clientes antiguos antes de entrar a una sala.",
+    "El multijugador exige exactamente la versión 2.1.32 y rechaza clientes antiguos antes de entrar a una sala.",
     "Los mods con errores se desactivan individualmente y muestran el motivo sin cerrar el juego ni bloquear el modo online oficial.",
     "El actualizador verifica SHA-256 antes de instalar y no interrumpe una partida activa."
   ]
 }
+
