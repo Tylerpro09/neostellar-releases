@@ -12,18 +12,18 @@
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.35/Neostellar-Setup-2.1.35-x64.exe",
-  "size_bytes": 56235492,
-  "sha256": "216a7a8968007d0442d13223d3ccb7ab25a6d4de65a7656383cae4d187ee7bbb",
+  "size_bytes": 56237552,
+  "sha256": "c14889a8ad6f9ff727d92f8f20d043593916699b42d13b25388dfac4be65e494",
   "platforms": {
     "windows": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.35/Neostellar-Setup-2.1.35-x64.exe",
-      "size_bytes": 56235492,
-      "sha256": "216a7a8968007d0442d13223d3ccb7ab25a6d4de65a7656383cae4d187ee7bbb"
+      "size_bytes": 56237552,
+      "sha256": "c14889a8ad6f9ff727d92f8f20d043593916699b42d13b25388dfac4be65e494"
     },
     "linux": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.35/Neostellar-linux-x86_64-2.1.35.tar.gz",
-      "size_bytes": 56236765,
-      "sha256": "77ebf457decc2158b91d4a3f6ec22e3ca43bdf438073e1435c326b1d5bc3cc99"
+      "size_bytes": 56236448,
+      "sha256": "15e32c99e1300a5557a7096d521487e5fec0719c323c15cb1d6aea44cb83d28c"
     },
     "android": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.35/Neostellar-Android-2.1.35.apk",
