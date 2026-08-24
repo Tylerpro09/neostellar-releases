@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.32 — catálogo arcade y multijugador protegido",
-  "version": "2.1.32",
+  "name": "Neostellar 2.1.33 — presentación Animix y actualizaciones mejoradas",
+  "version": "2.1.33",
   "channel": "stable",
   "release_type": "mandatory",
   "published_at": "2026-08-23",
@@ -11,36 +11,35 @@
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.32/Neostellar-Setup-2.1.32-x64.exe",
-  "size_bytes": 56218368,
-  "sha256": "5de859c6e91c8d96fba67a621a597a0aecd725df8245815e0611fac197d7fe48",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-Setup-2.1.33-x64.exe",
+  "size_bytes": 56224528,
+  "sha256": "83947a33bd14e60f36f706eec1dba72dc9de447f6c4db5c08fd886fcfd2b7dbd",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.32/Neostellar-Setup-2.1.32-x64.exe",
-      "size_bytes": 56218368,
-      "sha256": "5de859c6e91c8d96fba67a621a597a0aecd725df8245815e0611fac197d7fe48"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-Setup-2.1.33-x64.exe",
+      "size_bytes": 56224528,
+      "sha256": "83947a33bd14e60f36f706eec1dba72dc9de447f6c4db5c08fd886fcfd2b7dbd"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.32/Neostellar-linux-x86_64-2.1.32.tar.gz",
-      "size_bytes": 56206718,
-      "sha256": "7b174e0738130fecb26715dc4671530c120f2a2358142657dd7040f7026e5227"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-linux-x86_64-2.1.33.tar.gz",
+      "size_bytes": 56214675,
+      "sha256": "b97f5cb67a327eae31938cdf466d15beaa90e10634b4365711c56e933498da65"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.32/Neostellar-Android-2.1.32.apk",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.33/Neostellar-Android-2.1.33.apk",
       "size_bytes": 50695626,
-      "sha256": "7b863a726b36e06a40e23309c486d25cbf9f449c69ef2bd80e1493a7268d09e0"
+      "sha256": "e734efb38dadad70686440dde8aa8c077be7ba2b441da894dd8cec2b935d9b13"
     }
   },
-  "notes": "Actualización multiplataforma con catálogo arcade, mejoras visuales en minijuegos y control estricto de versión para el multijugador.",
+  "notes": "Actualización multiplataforma con presentación de Animix Software, catálogo arcade con scroll y un sistema de actualizaciones más claro y seguro.",
   "highlights": [
+    "Nueva presentación de Animix Software y Neostellar al iniciar; dura diez segundos y se puede omitir.",
     "Windows incluye instalador x64 firmado digitalmente y verificado con sello de tiempo.",
     "Linux incluye interfaz, recursos visuales e instrucciones; es compatible con glibc 2.35.",
-    "Android incluye el cliente actualizado 2.1.32.",
-    "Minijuegos añade un catálogo de diez clásicos arcade como referencia sin habilitar modos no implementados.",
-    "Las ganancias normales de créditos se equilibran al 70%; las herramientas de desarrollo conservan su funcionamiento.",
-    "El multijugador exige exactamente la versión 2.1.32 y rechaza clientes antiguos antes de entrar a una sala.",
-    "Los mods con errores se desactivan individualmente y muestran el motivo sin cerrar el juego ni bloquear el modo online oficial.",
-    "El actualizador verifica SHA-256 antes de instalar y no interrumpe una partida activa."
+    "Android incluye el cliente actualizado 2.1.33.",
+    "El botón Clásicos muestra los diez juegos en una lista desplazable con rueda, flechas y PageUp/PageDown.",
+    "Las actualizaciones muestran versión, canal, tamaño, notas, progreso y reintentos de descarga.",
+    "El actualizador verifica SHA-256, firma digital y tamaño esperado antes de instalar.",
+    "El multijugador exige exactamente la versión 2.1.33 y rechaza clientes antiguos antes de entrar a una sala."
   ]
 }
-
