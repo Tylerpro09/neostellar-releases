@@ -1,67 +1,68 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.39 — FNF: semana Signal from the Void visible",
-  "version": "2.1.39",
+  "name": "Neostellar 2.1.40 — Infinite Craft con emojis",
+  "version": "2.1.40",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-08-24",
+  "published_at": "2026-08-25",
   "minimum_supported_version": "2.1.16",
   "required": true,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.39/Neostellar-Setup-2.1.39-x64.exe",
-  "size_bytes": 122617424,
-  "sha256": "12306f754c469fd53a49de96a0fe09f97e70c04de6391f220431aa1518b23e2c",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.40/Neostellar-Setup-2.1.40-x64.exe",
+  "size_bytes": 124027840,
+  "sha256": "bb63a3144f82d95214c42856a0695c52238c60b95cb35cbed0defb1b764a26bf",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.39/Neostellar-Setup-2.1.39-x64.exe",
-      "size_bytes": 122617424,
-      "sha256": "12306f754c469fd53a49de96a0fe09f97e70c04de6391f220431aa1518b23e2c"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.40/Neostellar-Setup-2.1.40-x64.exe",
+      "size_bytes": 124027840,
+      "sha256": "bb63a3144f82d95214c42856a0695c52238c60b95cb35cbed0defb1b764a26bf"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.39/Neostellar-linux-x86_64-2.1.39.tar.gz",
-      "size_bytes": 177885497,
-      "sha256": "acdad389cee434d8d888e126d888f9c5d1cee2efec6fabec57f9797ac6a635b8"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.40/Neostellar-linux-x86_64-2.1.40.tar.gz",
+      "size_bytes": 186245690,
+      "sha256": "051d77a10d3c5c6a292231d4a7c2ebc450e49db1451464ef989d6ae792a057f6"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.39/Neostellar-Android-2.1.39.apk",
-      "size_bytes": 50777594,
-      "sha256": "b31887bf301e6271128a28ea4b04e223d97c76d87ad7f2a627932279741cc69f"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.40/Neostellar-Android-2.1.40.apk",
+      "size_bytes": 51138126,
+      "sha256": "14b6a9b32a975e9f4ff9d6051a940134b23c9e5d5b4e7899b6c2baf094e8913e"
     }
   },
-  "notes": "NeoStellar 2.1.39 corrige la semana FNF: ahora se instala como el mod integrado neostellar_fnf y aparece en Story Mode con sus charts, canciones y escenario.",
+  "notes": "Neostellar 2.1.40 añade emojis reales a los elementos de Infinite Craft y mantiene el modo estrictamente en línea.",
   "highlights": [
-    "La semana Signal from the Void queda registrada y visible en Story Mode de Psych Engine.",
-    "El mod integrado se copia al directorio de mods escribible para que no desaparezca por falta de registro en el manifiesto.",
-    "Windows incluye el instalador x64 firmado con certificado PFX.",
-    "Linux incluye el paquete x86_64 con el runtime nativo y la semana FNF completa.",
-    "Android incluye el cliente actualizado 2.1.39.",
-    "El multijugador exige exactamente la versión 2.1.39 y rechaza clientes antiguos antes de entrar a una sala."
+    "Infinite Craft muestra 💧 agua, 🔥 fuego, 🌍 tierra y 💨 viento.",
+    "Los resultados nuevos conservan el emoji devuelto por la API durante la sesión.",
+    "El minijuego sigue siendo exclusivo de Windows/Linux y requiere Internet.",
+    "Las combinaciones se consultan en línea con infinite-craft==1.2.2; no se guardan recetas locales.",
+    "Windows incluye el instalador x64 firmado con certificado PFX y sello de tiempo.",
+    "Linux incluye el paquete x86_64 con el motor FNF nativo y el mod integrado.",
+    "Android conserva la aplicación general; Infinite Craft no aparece en móvil.",
+    "El multijugador exige exactamente la versión 2.1.40 antes de entrar a una sala."
   ],
   "previous": {
-    "name": "Neostellar 2.1.38 — FNF: Signal from the Void",
-    "version": "2.1.38",
+    "name": "Neostellar 2.1.39 — FNF: semana Signal from the Void visible",
+    "version": "2.1.39",
     "channel": "stable",
     "notes": "Versión anterior estable disponible para rollback.",
     "platforms": {
       "windows": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.38/Neostellar-Setup-2.1.38-x64.exe",
-        "size_bytes": 122604152,
-        "sha256": "90cd4bfe3422d8e8a7a11d8d2f59d7a852000d4c161d25f4c55de6a69ea7417c"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.39/Neostellar-Setup-2.1.39-x64.exe",
+        "size_bytes": 122617424,
+        "sha256": "12306f754c469fd53a49de96a0fe09f97e70c04de6391f220431aa1518b23e2c"
       },
       "linux": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.38/Neostellar-linux-x86_64-2.1.38.tar.gz",
-        "size_bytes": 152047988,
-        "sha256": "0b6b8b49f962ced04270db934a975672a06a39208d04902430adaefd9dcdb31e"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.39/Neostellar-linux-x86_64-2.1.39.tar.gz",
+        "size_bytes": 177885497,
+        "sha256": "acdad389cee434d8d888e126d888f9c5d1cee2efec6fabec57f9797ac6a635b8"
       },
       "android": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.38/Neostellar-Android-2.1.38.apk",
+        "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.39/Neostellar-Android-2.1.39.apk",
         "size_bytes": 50777594,
         "sha256": "b31887bf301e6271128a28ea4b04e223d97c76d87ad7f2a627932279741cc69f"
       }
     }
   }
 }
-
