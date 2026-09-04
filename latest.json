@@ -1,68 +1,44 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.40 — Infinite Craft con emojis",
-  "version": "2.1.40",
+  "name": "Neostellar 2.1.41 — Resultados del multijugador",
+  "version": "2.1.41",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-08-25",
+  "published_at": "2026-09-04",
   "minimum_supported_version": "2.1.16",
   "required": true,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.40/Neostellar-Setup-2.1.40-x64.exe",
-  "size_bytes": 124027840,
-  "sha256": "bb63a3144f82d95214c42856a0695c52238c60b95cb35cbed0defb1b764a26bf",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-Setup-2.1.41-x64.exe",
+  "size_bytes": 124050601,
+  "sha256": "D57FA1DE0D776577CF701BB44BF104C74C198B40ABEF65A15C4F14AE88D5502E",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.40/Neostellar-Setup-2.1.40-x64.exe",
-      "size_bytes": 124027840,
-      "sha256": "bb63a3144f82d95214c42856a0695c52238c60b95cb35cbed0defb1b764a26bf"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-Setup-2.1.41-x64.exe",
+      "size_bytes": 124050601,
+      "sha256": "D57FA1DE0D776577CF701BB44BF104C74C198B40ABEF65A15C4F14AE88D5502E"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.40/Neostellar-linux-x86_64-2.1.40.tar.gz",
-      "size_bytes": 186245690,
-      "sha256": "051d77a10d3c5c6a292231d4a7c2ebc450e49db1451464ef989d6ae792a057f6"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-linux-x86_64-2.1.41.tar.gz",
+      "size_bytes": 148416886,
+      "sha256": "27FEF92B6EC0B5DFBBD32E5133A354DEA806963AA29E07AFC29CB52616DAB8D6"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.40/Neostellar-Android-2.1.40.apk",
-      "size_bytes": 51138126,
-      "sha256": "14b6a9b32a975e9f4ff9d6051a940134b23c9e5d5b4e7899b6c2baf094e8913e"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-Android-2.1.41.apk",
+      "size_bytes": 51138194,
+      "sha256": "E408657D4081D8870A1D790909991CB5D964C612F6F9F1417EE0F878245FF6AC"
     }
   },
-  "notes": "Neostellar 2.1.40 añade emojis reales a los elementos de Infinite Craft y mantiene el modo estrictamente en línea.",
+  "notes": "Neostellar 2.1.41 corrige el cierre de partidas multijugador y añade las acciones finales de revancha y salida.",
   "highlights": [
-    "Infinite Craft muestra 💧 agua, 🔥 fuego, 🌍 tierra y 💨 viento.",
-    "Los resultados nuevos conservan el emoji devuelto por la API durante la sesión.",
-    "El minijuego sigue siendo exclusivo de Windows/Linux y requiere Internet.",
-    "Las combinaciones se consultan en línea con infinite-craft==1.2.2; no se guardan recetas locales.",
-    "Windows incluye el instalador x64 firmado con certificado PFX y sello de tiempo.",
-    "Linux incluye el paquete x86_64 con el motor FNF nativo y el mod integrado.",
-    "Android conserva la aplicación general; Infinite Craft no aparece en móvil.",
-    "El multijugador exige exactamente la versión 2.1.40 antes de entrar a una sala."
-  ],
-  "previous": {
-    "name": "Neostellar 2.1.39 — FNF: semana Signal from the Void visible",
-    "version": "2.1.39",
-    "channel": "stable",
-    "notes": "Versión anterior estable disponible para rollback.",
-    "platforms": {
-      "windows": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.39/Neostellar-Setup-2.1.39-x64.exe",
-        "size_bytes": 122617424,
-        "sha256": "12306f754c469fd53a49de96a0fe09f97e70c04de6391f220431aa1518b23e2c"
-      },
-      "linux": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.39/Neostellar-linux-x86_64-2.1.39.tar.gz",
-        "size_bytes": 177885497,
-        "sha256": "acdad389cee434d8d888e126d888f9c5d1cee2efec6fabec57f9797ac6a635b8"
-      },
-      "android": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.39/Neostellar-Android-2.1.39.apk",
-        "size_bytes": 50777594,
-        "sha256": "b31887bf301e6271128a28ea4b04e223d97c76d87ad7f2a627932279741cc69f"
-      }
-    }
-  }
+    "El modo enemigo muestra Victoria o Derrota al terminar la partida.",
+    "El modo cooperativo muestra Game Over cuando todos los pilotos caen.",
+    "La pantalla final incluye los botones Revancha y Salir.",
+    "El servidor exige exactamente la versión 2.1.41 para entrar a una sala.",
+    "Windows incluye el instalador x64 recompilado con las correcciones de esta versión.",
+    "Linux incluye el paquete x86_64 recompilado con las correcciones de esta versión.",
+    "Android conserva el paquete general disponible para esta versión."
+  ]
 }
