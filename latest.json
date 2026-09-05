@@ -1,44 +1,66 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.41 — Resultados del multijugador",
-  "version": "2.1.41",
+  "name": "Neostellar 2.1.42 — Actualizador robusto y resultados del multijugador",
+  "version": "2.1.42",
   "channel": "stable",
   "release_type": "mandatory",
   "published_at": "2026-09-04",
   "minimum_supported_version": "2.1.16",
   "required": true,
+  "signature_required": false,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-Setup-2.1.41-x64.exe",
-  "size_bytes": 124050601,
-  "sha256": "D57FA1DE0D776577CF701BB44BF104C74C198B40ABEF65A15C4F14AE88D5502E",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
+  "size_bytes": 124051167,
+  "sha256": "79C24FE65F7A261A663FFB50647B2483C761869C11B93E6B537DA5DA33A88734",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-Setup-2.1.41-x64.exe",
-      "size_bytes": 124050601,
-      "sha256": "D57FA1DE0D776577CF701BB44BF104C74C198B40ABEF65A15C4F14AE88D5502E"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
+      "size_bytes": 124051167,
+      "sha256": "79C24FE65F7A261A663FFB50647B2483C761869C11B93E6B537DA5DA33A88734"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-linux-x86_64-2.1.41.tar.gz",
-      "size_bytes": 148416886,
-      "sha256": "27FEF92B6EC0B5DFBBD32E5133A354DEA806963AA29E07AFC29CB52616DAB8D6"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-linux-x86_64-2.1.42.tar.gz",
+      "size_bytes": 172726971,
+      "sha256": "857F138ACB1DB20396B16D9D8F8109D94A4AC77614E2B483EF28B8E90F34A6FD"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-Android-2.1.41.apk",
-      "size_bytes": 51138194,
-      "sha256": "E408657D4081D8870A1D790909991CB5D964C612F6F9F1417EE0F878245FF6AC"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
+      "size_bytes": 51138126,
+      "sha256": "9AE393CD0ECD670C65B8D9D67BADBF8F65AC8AC993AA3459AC1FE6B016932F1A"
     }
   },
-  "notes": "Neostellar 2.1.41 corrige el cierre de partidas multijugador y añade las acciones finales de revancha y salida.",
+  "notes": "Neostellar 2.1.42 corrige el cierre de partidas multijugador y refuerza el actualizador contra descargas incompletas, archivos corruptos y fallos de firma opcional.",
   "highlights": [
     "El modo enemigo muestra Victoria o Derrota al terminar la partida.",
     "El modo cooperativo muestra Game Over cuando todos los pilotos caen.",
     "La pantalla final incluye los botones Revancha y Salir.",
-    "El servidor exige exactamente la versión 2.1.41 para entrar a una sala.",
+    "El servidor exige exactamente la versión 2.1.42 para entrar a una sala.",
+    "El actualizador valida tamaño y SHA-256, reintenta y limpia descargas parciales.",
+    "La firma Authenticode solo se exige cuando el manifiesto la marca como obligatoria.",
     "Windows incluye el instalador x64 recompilado con las correcciones de esta versión.",
     "Linux incluye el paquete x86_64 recompilado con las correcciones de esta versión.",
-    "Android conserva el paquete general disponible para esta versión."
-  ]
+    "Android incluye el APK recompilado de esta versión."
+  ],
+  "previous": {
+    "name": "Neostellar 2.1.41",
+    "version": "2.1.41",
+    "channel": "stable",
+    "required": false,
+    "signature_required": false,
+    "platforms": {
+      "windows": {
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-Setup-2.1.41-x64.exe",
+        "size_bytes": 124050601,
+        "sha256": "D57FA1DE0D776577CF701BB44BF104C74C198B40ABEF65A15C4F14AE88D5502E"
+      },
+      "linux": {
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-linux-x86_64-2.1.41.tar.gz",
+        "size_bytes": 148416886,
+        "sha256": "27FEF92B6EC0B5DFBBD32E5133A354DEA806963AA29E07AFC29CB52616DAB8D6"
+      }
+    }
+  }
 }
