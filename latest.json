@@ -8,18 +8,19 @@
   "published_at": "2026-09-04",
   "minimum_supported_version": "2.1.16",
   "required": true,
-  "signature_required": false,
+  "signature_required": true,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
-  "size_bytes": 124051167,
-  "sha256": "79C24FE65F7A261A663FFB50647B2483C761869C11B93E6B537DA5DA33A88734",
+  "size_bytes": 124058600,
+  "sha256": "42363E41A722B3EB16F8B266F368C3C970146B357E1AF30E105D17C89E81095B",
   "platforms": {
     "windows": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
-      "size_bytes": 124051167,
-      "sha256": "79C24FE65F7A261A663FFB50647B2483C761869C11B93E6B537DA5DA33A88734"
+      "size_bytes": 124058600,
+      "sha256": "42363E41A722B3EB16F8B266F368C3C970146B357E1AF30E105D17C89E81095B",
+      "signature_required": true
     },
     "linux": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-linux-x86_64-2.1.42.tar.gz",
