@@ -13,13 +13,13 @@
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
-  "size_bytes": 124058600,
-  "sha256": "42363E41A722B3EB16F8B266F368C3C970146B357E1AF30E105D17C89E81095B",
+  "size_bytes": 124066400,
+  "sha256": "53CB658C79EBA8FBBCE7BC273F1262ED126376B7C7AE1ADF8C48858CC61AC8DC",
   "platforms": {
     "windows": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
-      "size_bytes": 124058600,
-      "sha256": "42363E41A722B3EB16F8B266F368C3C970146B357E1AF30E105D17C89E81095B",
+      "size_bytes": 124066400,
+      "sha256": "53CB658C79EBA8FBBCE7BC273F1262ED126376B7C7AE1ADF8C48858CC61AC8DC",
       "signature_required": true
     },
     "linux": {
