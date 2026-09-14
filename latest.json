@@ -1,67 +1,74 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.42 — Actualizador robusto y resultados del multijugador",
-  "version": "2.1.42",
+  "name": "Neostellar 2.1.43 — Menús refinados y mapas para mods",
+  "version": "2.1.43",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-09-04",
+  "published_at": "2026-09-14",
   "minimum_supported_version": "2.1.16",
   "required": true,
   "signature_required": true,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
-  "size_bytes": 124066400,
-  "sha256": "53CB658C79EBA8FBBCE7BC273F1262ED126376B7C7AE1ADF8C48858CC61AC8DC",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.43/Neostellar-Setup-2.1.43-x64.exe",
+  "size_bytes": 124076384,
+  "sha256": "9D1189BA519650B4C0F5B95C6DD2D4DDAB8C3777D996270C160E297A33B4BC30",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
-      "size_bytes": 124066400,
-      "sha256": "53CB658C79EBA8FBBCE7BC273F1262ED126376B7C7AE1ADF8C48858CC61AC8DC",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.43/Neostellar-Setup-2.1.43-x64.exe",
+      "size_bytes": 124076384,
+      "sha256": "9D1189BA519650B4C0F5B95C6DD2D4DDAB8C3777D996270C160E297A33B4BC30",
       "signature_required": true
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-linux-x86_64-2.1.42.tar.gz",
-      "size_bytes": 172726971,
-      "sha256": "857F138ACB1DB20396B16D9D8F8109D94A4AC77614E2B483EF28B8E90F34A6FD"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.43/Neostellar-linux-x86_64-2.1.43.tar.gz",
+      "size_bytes": 143138196,
+      "sha256": "E3FA5160BD552C9ECC66819ADD5FA1F36C130A74C9B95A1DF37CE38E2C7334BA"
     },
     "android": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
       "size_bytes": 51138126,
-      "sha256": "9AE393CD0ECD670C65B8D9D67BADBF8F65AC8AC993AA3459AC1FE6B016932F1A"
+      "sha256": "9AE393CD0ECD670C65B8D9D67BADBF8F65AC8AC993AA3459AC1FE6B016932F1A",
+      "updates_disabled": true
     }
   },
-  "notes": "Neostellar 2.1.42 corrige el cierre de partidas multijugador y refuerza el actualizador contra descargas incompletas, archivos corruptos y fallos de firma opcional.",
+  "notes": "Neostellar 2.1.43 mejora la lectura de Ajustes y Minijuegos, añade mapas definidos por mods y actualiza la compatibilidad del servidor.",
   "highlights": [
-    "El modo enemigo muestra Victoria o Derrota al terminar la partida.",
-    "El modo cooperativo muestra Game Over cuando todos los pilotos caen.",
-    "La pantalla final incluye los botones Revancha y Salir.",
-    "El servidor exige exactamente la versión 2.1.42 para entrar a una sala.",
+    "El panel de Ajustes adapta categorías y controles a ventanas pequeñas.",
+    "La sección Minijuegos usa tarjetas pulsables sin botones duplicados ni solapamientos.",
+    "La API de mods permite registrar y activar mapas con paredes, zonas y puntos de aparición.",
+    "El runtime de mods conserva límites de tiempo, eventos y limpieza por mod.",
+    "El servidor exige exactamente la versión 2.1.43 para entrar a una sala.",
     "El actualizador valida tamaño y SHA-256, reintenta y limpia descargas parciales.",
-    "La firma Authenticode solo se exige cuando el manifiesto la marca como obligatoria.",
-    "Windows incluye el instalador x64 recompilado con las correcciones de esta versión.",
-    "Linux incluye el paquete x86_64 recompilado con las correcciones de esta versión.",
-    "Android incluye el APK recompilado de esta versión."
+    "Windows incluye instalador x64 firmado con Authenticode y sello de tiempo.",
+    "Linux incluye paquete x86_64 generado en Ubuntu 22.04.",
+    "Android conserva la versión 2.1.42 hasta publicar una versión definitiva."
   ],
   "previous": {
-    "name": "Neostellar 2.1.41",
-    "version": "2.1.41",
+    "name": "Neostellar 2.1.42",
+    "version": "2.1.42",
     "channel": "stable",
     "required": false,
-    "signature_required": false,
+    "signature_required": true,
     "platforms": {
       "windows": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-Setup-2.1.41-x64.exe",
-        "size_bytes": 124050601,
-        "sha256": "D57FA1DE0D776577CF701BB44BF104C74C198B40ABEF65A15C4F14AE88D5502E"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
+        "size_bytes": 124066400,
+        "sha256": "53CB658C79EBA8FBBCE7BC273F1262ED126376B7C7AE1ADF8C48858CC61AC8DC"
       },
       "linux": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.41/Neostellar-linux-x86_64-2.1.41.tar.gz",
-        "size_bytes": 148416886,
-        "sha256": "27FEF92B6EC0B5DFBBD32E5133A354DEA806963AA29E07AFC29CB52616DAB8D6"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-linux-x86_64-2.1.42.tar.gz",
+        "size_bytes": 172726971,
+        "sha256": "857F138ACB1DB20396B16D9D8F8109D94A4AC77614E2B483EF28B8E90F34A6FD"
+      },
+      "android": {
+        "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
+        "size_bytes": 51138126,
+        "sha256": "9AE393CD0ECD670C65B8D9D67BADBF8F65AC8AC993AA3459AC1FE6B016932F1A"
       }
     }
   }
 }
+
