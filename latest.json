@@ -1,31 +1,31 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.43 — Menús refinados y mapas para mods",
-  "version": "2.1.43",
+  "name": "Neostellar 2.1.44 — Moderación humana y modo staff",
+  "version": "2.1.44",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-09-14",
+  "published_at": "2026-09-23",
   "minimum_supported_version": "2.1.16",
   "required": true,
   "signature_required": true,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.43/Neostellar-Setup-2.1.43-x64.exe",
-  "size_bytes": 124076384,
-  "sha256": "9D1189BA519650B4C0F5B95C6DD2D4DDAB8C3777D996270C160E297A33B4BC30",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.44/Neostellar-Setup-2.1.44-x64.exe",
+  "size_bytes": 124028840,
+  "sha256": "79421ABA318AF3C368D3F4387726C8BE3677EF0F9AC58E3F356E476242DB2B93",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.43/Neostellar-Setup-2.1.43-x64.exe",
-      "size_bytes": 124076384,
-      "sha256": "9D1189BA519650B4C0F5B95C6DD2D4DDAB8C3777D996270C160E297A33B4BC30",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.44/Neostellar-Setup-2.1.44-x64.exe",
+      "size_bytes": 124028840,
+      "sha256": "79421ABA318AF3C368D3F4387726C8BE3677EF0F9AC58E3F356E476242DB2B93",
       "signature_required": true
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.43/Neostellar-linux-x86_64-2.1.43.tar.gz",
-      "size_bytes": 143138196,
-      "sha256": "E3FA5160BD552C9ECC66819ADD5FA1F36C130A74C9B95A1DF37CE38E2C7334BA"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.44/Neostellar-linux-x86_64-2.1.44.tar.gz",
+      "size_bytes": 143143366,
+      "sha256": "1B4EE3FFCD0F80447EB3B1E1CA9A7003E50CF9A626817E84CA1620D2CA4EE257"
     },
     "android": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
@@ -34,34 +34,35 @@
       "updates_disabled": true
     }
   },
-  "notes": "Neostellar 2.1.43 mejora la lectura de Ajustes y Minijuegos, añade mapas definidos por mods y actualiza la compatibilidad del servidor.",
+  "notes": "Neostellar 2.1.44 incorpora moderación humana, modo staff vanish y compatibilidad obligatoria con el servidor para Windows y Linux.",
   "highlights": [
     "El panel de Ajustes adapta categorías y controles a ventanas pequeñas.",
     "La sección Minijuegos usa tarjetas pulsables sin botones duplicados ni solapamientos.",
     "La API de mods permite registrar y activar mapas con paredes, zonas y puntos de aparición.",
     "El runtime de mods conserva límites de tiempo, eventos y limpieza por mod.",
-    "El servidor exige exactamente la versión 2.1.43 para entrar a una sala.",
+    "El servidor exige exactamente la versión 2.1.44 para entrar a una sala.",
+    "El personal autorizado puede entrar en modo staff sin aparecer ante los jugadores.",
     "El actualizador valida tamaño y SHA-256, reintenta y limpia descargas parciales.",
     "Windows incluye instalador x64 firmado con Authenticode y sello de tiempo.",
     "Linux incluye paquete x86_64 generado en Ubuntu 22.04.",
     "Android conserva la versión 2.1.42 hasta publicar una versión definitiva."
   ],
   "previous": {
-    "name": "Neostellar 2.1.42",
-    "version": "2.1.42",
+    "name": "Neostellar 2.1.43",
+    "version": "2.1.43",
     "channel": "stable",
     "required": false,
     "signature_required": true,
     "platforms": {
       "windows": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Setup-2.1.42-x64.exe",
-        "size_bytes": 124066400,
-        "sha256": "53CB658C79EBA8FBBCE7BC273F1262ED126376B7C7AE1ADF8C48858CC61AC8DC"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.43/Neostellar-Setup-2.1.43-x64.exe",
+        "size_bytes": 124076384,
+        "sha256": "9D1189BA519650B4C0F5B95C6DD2D4DDAB8C3777D996270C160E297A33B4BC30"
       },
       "linux": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-linux-x86_64-2.1.42.tar.gz",
-        "size_bytes": 172726971,
-        "sha256": "857F138ACB1DB20396B16D9D8F8109D94A4AC77614E2B483EF28B8E90F34A6FD"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.43/Neostellar-linux-x86_64-2.1.43.tar.gz",
+        "size_bytes": 143138196,
+        "sha256": "E3FA5160BD552C9ECC66819ADD5FA1F36C130A74C9B95A1DF37CE38E2C7334BA"
       },
       "android": {
         "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
