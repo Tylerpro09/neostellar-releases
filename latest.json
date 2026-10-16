@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.46 — Modo global rehecho",
+  "name": "Neostellar 2.1.46 — Menú principal corregido",
   "version": "2.1.46",
   "channel": "stable",
   "release_type": "mandatory",
@@ -13,19 +13,21 @@
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-  "size_bytes": 84465394,
-  "sha256": "12F5960D88FE231FA404EE7740A79BE36542700F2FDD1D0487A72F7E39D27A44",
+  "size_bytes": 84465880,
+  "sha256": "e9d81ff0d698b81ee12677a48496d48569c6bebce4402f25982ea52af1c93875",
   "platforms": {
     "windows": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-      "size_bytes": 84465394,
-      "sha256": "12F5960D88FE231FA404EE7740A79BE36542700F2FDD1D0487A72F7E39D27A44",
-      "signature_required": false
+      "size_bytes": 84465880,
+      "sha256": "e9d81ff0d698b81ee12677a48496d48569c6bebce4402f25982ea52af1c93875",
+      "signature_required": false,
+      "version": "2.1.46"
     },
     "linux": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-linux-x86_64-2.1.46.tar.gz",
-      "size_bytes": 86121364,
-      "sha256": "ECA61D0BF74286CFE52610F1159A09FA9EFF922852801F6BA5CB0F43BA320056"
+      "size_bytes": 86031134,
+      "sha256": "d3cb13c8ca8f617ba2fb0bc16c6ccd81f16e843964811e71e5b75ae5e9a1f19b",
+      "version": "2.1.46"
     },
     "android": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
@@ -34,13 +36,11 @@
       "updates_disabled": true
     }
   },
-  "notes": "Neostellar 2.1.46 incorpora el modo global rehecho: entrada directa, sin salas visibles y sin limite de jugadores configurado. Windows y Linux fueron recompilados y probados. Android permanece congelado hasta una version definitiva.",
+  "notes": "Menú principal corregido: el GIF de Patreon/Tallon032 vuelve a mostrarse. Windows y Linux recompilados; modo global con entrada directa. Android permanece sin cambios.",
   "highlights": [
-    "Modo global con entrada directa, sin sala ni codigo.",
-    "Sin limite de jugadores configurado en el modo global.",
-    "Windows x64 recompilado y probado con smoke-test.",
-    "Linux x86_64 recompilado y alineado con el servidor.",
-    "Android permanece en la version estable anterior hasta la version definitiva."
+    "GIF de Patreon/Tallon032 visible en el menú principal",
+    "Modo global con entrada directa",
+    "Windows y Linux actualizados"
   ],
   "previous": {
     "name": "Neostellar 2.1.45 — Modo global",
