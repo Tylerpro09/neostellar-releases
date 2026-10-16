@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.46 — Interfaz de inicio renovada",
+  "name": "Neostellar 2.1.46 — Modo global rehecho",
   "version": "2.1.46",
   "channel": "stable",
   "release_type": "mandatory",
@@ -13,19 +13,19 @@
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-  "size_bytes": 84658148,
-  "sha256": "6E37FD283945091527CD673F69491853A3FF0F7832155A938599C59ED0BAA102",
+  "size_bytes": 84465394,
+  "sha256": "12F5960D88FE231FA404EE7740A79BE36542700F2FDD1D0487A72F7E39D27A44",
   "platforms": {
     "windows": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-      "size_bytes": 84658148,
-      "sha256": "6E37FD283945091527CD673F69491853A3FF0F7832155A938599C59ED0BAA102",
+      "size_bytes": 84465394,
+      "sha256": "12F5960D88FE231FA404EE7740A79BE36542700F2FDD1D0487A72F7E39D27A44",
       "signature_required": false
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.46/Neostellar-linux-x86_64-2.1.46.tar.gz",
-      "size_bytes": 86119795,
-      "sha256": "E8B8360B70DA0A029AB93A24CCC0848289B1B815849B3EB443E764AF6B73035E"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-linux-x86_64-2.1.46.tar.gz",
+      "size_bytes": 86121364,
+      "sha256": "ECA61D0BF74286CFE52610F1159A09FA9EFF922852801F6BA5CB0F43BA320056"
     },
     "android": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
@@ -34,14 +34,13 @@
       "updates_disabled": true
     }
   },
-  "notes": "Neostellar 2.1.46 incorpora una interfaz de inicio renovada y paquetes Windows/Linux recompilados. El instalador de Windows no está firmado porque no hay un certificado PFX configurado.",
+  "notes": "Neostellar 2.1.46 incorpora el modo global rehecho: entrada directa, sin salas visibles y sin limite de jugadores configurado. Windows y Linux fueron recompilados y probados. Android permanece congelado hasta una version definitiva.",
   "highlights": [
-    "Menú principal renovado con panel de mando, tarjetas de estado y botones mejorados.",
-    "Identidad visual Animix Software y telemetría de conexión más ordenada.",
-    "Infinite Craft incluido correctamente en los paquetes Windows y Linux.",
-    "Instalador de Windows actualizado con diseño visual renovado.",
-    "Linux incluye un paquete portable x86_64 recompilado y probado.",
-    "Android conserva la versión 2.1.42 hasta publicar una versión definitiva."
+    "Modo global con entrada directa, sin sala ni codigo.",
+    "Sin limite de jugadores configurado en el modo global.",
+    "Windows x64 recompilado y probado con smoke-test.",
+    "Linux x86_64 recompilado y alineado con el servidor.",
+    "Android permanece en la version estable anterior hasta la version definitiva."
   ],
   "previous": {
     "name": "Neostellar 2.1.45 — Modo global",
