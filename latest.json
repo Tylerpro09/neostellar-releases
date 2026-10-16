@@ -1,65 +1,64 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.45 — Modo global",
-  "version": "2.1.45",
+  "name": "Neostellar 2.1.46 — Interfaz de inicio renovada",
+  "version": "2.1.46",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-10-03",
+  "published_at": "2026-10-16",
   "minimum_supported_version": "2.1.16",
   "required": true,
-  "signature_required": true,
+  "signature_required": false,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.45/Neostellar-Setup-2.1.45-x64.exe",
-  "size_bytes": 124202568,
-  "sha256": "5404418f5a71ac3b4bbf772ba68ddd4c2a3bdb32bc53b82360977604862decf6",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
+  "size_bytes": 84658148,
+  "sha256": "6E37FD283945091527CD673F69491853A3FF0F7832155A938599C59ED0BAA102",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.45/Neostellar-Setup-2.1.45-x64.exe",
-      "size_bytes": 124202568,
-      "sha256": "5404418f5a71ac3b4bbf772ba68ddd4c2a3bdb32bc53b82360977604862decf6",
-      "signature_required": true
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
+      "size_bytes": 84658148,
+      "sha256": "6E37FD283945091527CD673F69491853A3FF0F7832155A938599C59ED0BAA102",
+      "signature_required": false
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.45/Neostellar-linux-x86_64-2.1.45.tar.gz",
-      "size_bytes": 148424474,
-      "sha256": "c6dfc4a3b6b6ca77019ff60de804d5163f7ae941a16258baca392b75df8e44e9"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.46/Neostellar-linux-x86_64-2.1.46.tar.gz",
+      "size_bytes": 86119795,
+      "sha256": "E8B8360B70DA0A029AB93A24CCC0848289B1B815849B3EB443E764AF6B73035E"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
       "size_bytes": 51138126,
       "sha256": "9AE393CD0ECD670C65B8D9D67BADBF8F65AC8AC993AA3459AC1FE6B016932F1A",
       "updates_disabled": true
     }
   },
-  "notes": "Neostellar 2.1.45 incorpora modo global sin sala visible, espacio sin frontera y conexión obligatoria con el servidor actualizado.",
+  "notes": "Neostellar 2.1.46 incorpora una interfaz de inicio renovada y paquetes Windows/Linux recompilados. El instalador de Windows no está firmado porque no hay un certificado PFX configurado.",
   "highlights": [
-    "El modo global conecta directamente a la partida compartida sin crear ni mostrar una sala.",
-    "El espacio global no aplica la frontera del modo normal; el límite de jugadores sigue controlado por el servidor.",
-    "La API de mods identifica el modo global y expone boundary=None para mapas sin frontera.",
-    "El servidor exige exactamente la versión 2.1.45 para entrar a partidas multijugador.",
-    "Windows incluye instalador x64 firmado con Authenticode y sello de tiempo.",
-    "Linux incluye paquete x86_64 recompilado con las instrucciones incluidas.",
+    "Menú principal renovado con panel de mando, tarjetas de estado y botones mejorados.",
+    "Identidad visual Animix Software y telemetría de conexión más ordenada.",
+    "Infinite Craft incluido correctamente en los paquetes Windows y Linux.",
+    "Instalador de Windows actualizado con diseño visual renovado.",
+    "Linux incluye un paquete portable x86_64 recompilado y probado.",
     "Android conserva la versión 2.1.42 hasta publicar una versión definitiva."
   ],
   "previous": {
-    "name": "Neostellar 2.1.44 — Moderación humana y modo staff",
-    "version": "2.1.44",
+    "name": "Neostellar 2.1.45 — Modo global",
+    "version": "2.1.45",
     "channel": "stable",
     "required": false,
     "signature_required": true,
     "platforms": {
       "windows": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.44/Neostellar-Setup-2.1.44-x64.exe",
-        "size_bytes": 124167976,
-        "sha256": "BFEBBA35FC3B31BF81549CA1C422444CF0C2F1A357A556A810EAE9163BE55308"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.45/Neostellar-Setup-2.1.45-x64.exe",
+        "size_bytes": 124202568,
+        "sha256": "5404418f5a71ac3b4bbf772ba68ddd4c2a3bdb32bc53b82360977604862decf6"
       },
       "linux": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.44/Neostellar-linux-x86_64-2.1.44.tar.gz",
-        "size_bytes": 143143366,
-        "sha256": "1B4EE3FFCD0F80447EB3B1E1CA9A7003E50CF9A626817E84CA1620D2CA4EE257"
+        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.45/Neostellar-linux-x86_64-2.1.45.tar.gz",
+        "size_bytes": 148424474,
+        "sha256": "c6dfc4a3b6b6ca77019ff60de804d5163f7ae941a16258baca392b75df8e44e9"
       },
       "android": {
         "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
