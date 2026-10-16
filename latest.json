@@ -13,20 +13,20 @@
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-  "size_bytes": 84465880,
-  "sha256": "e9d81ff0d698b81ee12677a48496d48569c6bebce4402f25982ea52af1c93875",
+  "size_bytes": 84465775,
+  "sha256": "aea889dd3a243aa1fa72a40e50ee8de3e358501dc0eb9a961152a70649dc58d1",
   "platforms": {
     "windows": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-      "size_bytes": 84465880,
-      "sha256": "e9d81ff0d698b81ee12677a48496d48569c6bebce4402f25982ea52af1c93875",
+      "size_bytes": 84465775,
+      "sha256": "aea889dd3a243aa1fa72a40e50ee8de3e358501dc0eb9a961152a70649dc58d1",
       "signature_required": false,
       "version": "2.1.46"
     },
     "linux": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-linux-x86_64-2.1.46.tar.gz",
-      "size_bytes": 86031134,
-      "sha256": "d3cb13c8ca8f617ba2fb0bc16c6ccd81f16e843964811e71e5b75ae5e9a1f19b",
+      "size_bytes": 86040219,
+      "sha256": "be3604d9e05d03a155aa0bb22e688e5bbc90269310f919c80d2150b6224dd225",
       "version": "2.1.46"
     },
     "android": {
@@ -36,9 +36,9 @@
       "updates_disabled": true
     }
   },
-  "notes": "Menú principal corregido: el GIF de Patreon/Tallon032 vuelve a mostrarse. Windows y Linux recompilados; modo global con entrada directa. Android permanece sin cambios.",
+  "notes": "Menú principal corregido: GIF de Patreon/Tallon032 a la derecha. Windows y Linux recompilados; modo global con entrada directa. Android permanece sin cambios.",
   "highlights": [
-    "GIF de Patreon/Tallon032 visible en el menú principal",
+    "GIF de Patreon/Tallon032 a la derecha del menú principal",
     "Modo global con entrada directa",
     "Windows y Linux actualizados"
   ],
