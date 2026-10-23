@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.46 — Menú principal corregido",
+  "name": "Neostellar 2.1.46 — Runtime de mods reforzado",
   "version": "2.1.46",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-10-16",
+  "published_at": "2026-10-23",
   "minimum_supported_version": "2.1.16",
   "required": true,
   "signature_required": false,
@@ -13,20 +13,20 @@
   "apply_before": "new_match",
   "interrupts_active_game": false,
   "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-  "size_bytes": 84465775,
-  "sha256": "aea889dd3a243aa1fa72a40e50ee8de3e358501dc0eb9a961152a70649dc58d1",
+  "size_bytes": 86428190,
+  "sha256": "053cc78b9a8a20f858db3da829ddabfbe5087ab63b4c448c6d41bbc800608435",
   "platforms": {
     "windows": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-      "size_bytes": 84465775,
-      "sha256": "aea889dd3a243aa1fa72a40e50ee8de3e358501dc0eb9a961152a70649dc58d1",
+      "size_bytes": 86428190,
+      "sha256": "053cc78b9a8a20f858db3da829ddabfbe5087ab63b4c448c6d41bbc800608435",
       "signature_required": false,
       "version": "2.1.46"
     },
     "linux": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-linux-x86_64-2.1.46.tar.gz",
-      "size_bytes": 86040219,
-      "sha256": "be3604d9e05d03a155aa0bb22e688e5bbc90269310f919c80d2150b6224dd225",
+      "size_bytes": 88117744,
+      "sha256": "1e60b487828a907a3bcc3b484627ffd126b29cf3a8c0df7761c6c6a36d437842",
       "version": "2.1.46"
     },
     "android": {
@@ -36,11 +36,11 @@
       "updates_disabled": true
     }
   },
-  "notes": "Menú principal corregido: GIF de Patreon/Tallon032 a la derecha. Windows y Linux recompilados; modo global con entrada directa. Android permanece sin cambios.",
+  "notes": "Runtime de mods reforzado con API controlada, límites de seguridad, diagnósticos y acciones de juego. Windows y Linux recompilados y verificados. Windows se publica sin firma PFX porque no hay certificado configurado. Android permanece sin actualizaciones.",
   "highlights": [
-    "GIF de Patreon/Tallon032 a la derecha del menú principal",
-    "Modo global con entrada directa",
-    "Windows y Linux actualizados"
+    "API de mods ampliada con acciones de juego controladas",
+    "Límites de tiempo, instrucciones y errores por mod",
+    "Windows y Linux recompilados y probados"
   ],
   "previous": {
     "name": "Neostellar 2.1.45 — Modo global",
