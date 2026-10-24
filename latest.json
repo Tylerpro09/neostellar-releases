@@ -30,7 +30,7 @@
       "version": "2.1.46"
     },
     "android": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
       "size_bytes": 51138126,
       "sha256": "9AE393CD0ECD670C65B8D9D67BADBF8F65AC8AC993AA3459AC1FE6B016932F1A",
       "updates_disabled": true
@@ -42,28 +42,5 @@
     "Límites de tiempo, instrucciones y errores por mod",
     "Windows y Linux recompilados y probados"
   ],
-  "previous": {
-    "name": "Neostellar 2.1.45 — Modo global",
-    "version": "2.1.45",
-    "channel": "stable",
-    "required": false,
-    "signature_required": true,
-    "platforms": {
-      "windows": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.45/Neostellar-Setup-2.1.45-x64.exe",
-        "size_bytes": 124202568,
-        "sha256": "5404418f5a71ac3b4bbf772ba68ddd4c2a3bdb32bc53b82360977604862decf6"
-      },
-      "linux": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.45/Neostellar-linux-x86_64-2.1.45.tar.gz",
-        "size_bytes": 148424474,
-        "sha256": "c6dfc4a3b6b6ca77019ff60de804d5163f7ae941a16258baca392b75df8e44e9"
-      },
-      "android": {
-        "url": "https://github.com/Tylerpro09/neostellar-releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
-        "size_bytes": 51138126,
-        "sha256": "9AE393CD0ECD670C65B8D9D67BADBF8F65AC8AC993AA3459AC1FE6B016932F1A"
-      }
-    }
-  }
+  "previous": null
 }
