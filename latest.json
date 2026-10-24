@@ -1,33 +1,33 @@
 {
   "schema_version": 2,
   "app": "Neostellar",
-  "name": "Neostellar 2.1.46 — Runtime de mods reforzado",
-  "version": "2.1.46",
+  "name": "Neostellar 2.1.47 — API de mods unificada",
+  "version": "2.1.47",
   "channel": "stable",
   "release_type": "mandatory",
-  "published_at": "2026-10-23",
+  "published_at": "2026-10-24",
   "minimum_supported_version": "2.1.16",
   "required": true,
   "signature_required": false,
   "restart_required": true,
   "apply_before": "new_match",
   "interrupts_active_game": false,
-  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-  "size_bytes": 86428190,
-  "sha256": "053cc78b9a8a20f858db3da829ddabfbe5087ab63b4c448c6d41bbc800608435",
+  "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.47/Neostellar-Setup-2.1.47-x64.exe",
+  "size_bytes": 86438892,
+  "sha256": "2F220BB7D60C66FB2C6F8D143DE7A5E73E8A5417795D736F51DD305CD8D87031",
   "platforms": {
     "windows": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-Setup-2.1.46-x64.exe",
-      "size_bytes": 86428190,
-      "sha256": "053cc78b9a8a20f858db3da829ddabfbe5087ab63b4c448c6d41bbc800608435",
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.47/Neostellar-Setup-2.1.47-x64.exe",
+      "size_bytes": 86438892,
+      "sha256": "2F220BB7D60C66FB2C6F8D143DE7A5E73E8A5417795D736F51DD305CD8D87031",
       "signature_required": false,
-      "version": "2.1.46"
+      "version": "2.1.47"
     },
     "linux": {
-      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.46/Neostellar-linux-x86_64-2.1.46.tar.gz",
-      "size_bytes": 88117744,
-      "sha256": "1e60b487828a907a3bcc3b484627ffd126b29cf3a8c0df7761c6c6a36d437842",
-      "version": "2.1.46"
+      "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.47/Neostellar-linux-x86_64-2.1.47.tar.gz",
+      "size_bytes": 88135436,
+      "sha256": "69040F17002230417D2C1FC5934EDEAA8781F75378C8AE80E26E412627653E23",
+      "version": "2.1.47"
     },
     "android": {
       "url": "https://github.com/Tylerpro09/neostellar-releases/releases/download/v2.1.42/Neostellar-Android-2.1.42.apk",
@@ -36,11 +36,11 @@
       "updates_disabled": true
     }
   },
-  "notes": "Runtime de mods reforzado con API controlada, límites de seguridad, diagnósticos y acciones de juego. Windows y Linux recompilados y verificados. Windows se publica sin firma PFX porque no hay certificado configurado. Android permanece sin actualizaciones.",
+  "notes": "API de mods unificada en API 2 con dependencias, orden de carga, eventos de ciclo de vida y diagnósticos. Servidor multijugador actualizado a 2.1.47. Windows y Linux recompilados y verificados. Windows se publica sin firma PFX porque no hay certificado configurado. Android permanece sin actualizaciones.",
   "highlights": [
-    "API de mods ampliada con acciones de juego controladas",
-    "Límites de tiempo, instrucciones y errores por mod",
-    "Windows y Linux recompilados y probados"
+    "API de mods única y estable: API 2",
+    "Dependencias, eventos y diagnósticos del runtime",
+    "Servidor, Windows y Linux actualizados a 2.1.47"
   ],
   "previous": null
 }
